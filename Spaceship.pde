@@ -3,10 +3,19 @@ class Spaceship extends Floater
     //your code here
     // req constructor, getter, setter (as necessary)
     public Spaceship(){
-      corners = ;
+      corners = 10;
       xCorners = new int[corners];
       yCorners = new int[corners];
-      xCorners[] = ;
+      xCorners[0] = 0;
+      yCorners[0] = -7;
+      xCorners[1] = -6;
+      yCorners[1] = -2;
+      xCorners[2] = -6;
+      yCorners[2] = 2;
+      xCorners[3] = 0;
+      yCorners[3] = 7;
+      xCorners[4] = 0;
+      yCorners[4] = 4;
       }
     /* hyperspace (stop ship + give new random position)
     public void hyperspace(){
