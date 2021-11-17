@@ -20,7 +20,10 @@ public void draw()
   }
   bob.show();
 }
-/*public void keyPressed(){
-      if (key == 'somekey'){
-        spaceship.setnew speed = 0
-        */
+
+*/public void keyPressed(){
+      if (key == 'a'){
+        bob.turn(-10);
+      }
+}
+*/
