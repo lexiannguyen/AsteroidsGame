@@ -1,5 +1,6 @@
 //your variable declarations here
 Star[] sue; //declare
+Spacehip bob = new Spaceship();
 public void setup() 
 {
   //your code here
@@ -17,6 +18,7 @@ public void draw()
   for(int i = 0; i<sue.length; i++){
     sue[i].show();
   }
+  bob.show();
 }
 /*public void keyPressed(){
       if (key == 'somekey'){
