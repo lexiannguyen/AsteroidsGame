@@ -13,7 +13,7 @@ class Star //note that this class does NOT extend Floater
   }
   public void show(){
     fill(myColor);
-    ellipse(myX, myY, 10, 10);
+    ellipse(myX, myY, 5, 5);
 }
   public int getmyX(){
     return myX;
