@@ -25,6 +25,7 @@ public void draw()
     if(key == 'h'){
         bob.hyperspace();
         bob.move();
+        bob.accelerate(0.3);
       }
      if(key == 'w' || key == 'W'){
        bob.accelerate(0.4);
