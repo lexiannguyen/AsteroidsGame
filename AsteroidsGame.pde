@@ -1,5 +1,10 @@
 //your variable declarations here
 Star[] sue; //declare
+/*
+Asteroid bob = new Asteroid();
+Asteroid may = new Asteroid();
+ArrayList <Asteroid> june = new ArrayList <Asteroid>();
+*/
 Spaceship bob = new Spaceship();
 public void setup() 
 {
@@ -10,6 +15,12 @@ public void setup()
   for(int i = 0; i<sue.length; i++){
     sue[i] = new Star();
   }
+  
+  /* new stuff
+    for(int i = 0; i<june.size(); i++){
+   june.add(i, new Asteroid()); 
+  }
+  */
 }
 public void draw() 
 {
@@ -18,7 +29,21 @@ public void draw()
   for(int i = 0; i<sue.length; i++){
     sue[i].show();
   }
-  if(keyPressed){ //moves once
+  
+  /* new stuff
+  
+    for(int i = 0; i<june.size(); i++){
+   (june.get(i)).move();
+   (june.get(i)).show();
+  }
+  bob.move();
+  may.move();
+  may.show();
+  bob.show();
+  
+  */
+
+/* if(keyPressed){ //moves once
     if (key == 'a' || key == 'A'){ //continually spins bc lastkeypressed = remembered
         bob.turn(-10);
       } 
@@ -45,5 +70,7 @@ public void keyPressed(){
       } else if(key == 'h'){
         bob.hyperspace();
       }
-        
+ 
+ 
+ */ 
 }
